@@ -13,7 +13,7 @@ $custom-palette: palette(
   $error: #a80000,
   $success: #107c10,
   $warn: #797673);
-@include theme($palette: $custom-palette, $schema: $light-fluent-schema, $roundness: 1);
+@include theme($palette: $custom-palette, $schema: $light-fluent-schema);
 
 body {
   background: hsla(var(--igx-surface-500));
